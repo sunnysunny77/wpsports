@@ -64,7 +64,23 @@ get_header(); ?>
 			</div>
 
 		</div>
-
+		
+		 <div class="row d-flex justify-content-center  col-12 text-warning text-info text-left  m-0 ">
+			
+			<div class=" col-12 col-sm-5 padding-0  m-3  fade-in ">
+				<span class="dashicons dashicons-star-filled  text-white m-2 "></span>		
+				<p class=" rounded bg-success text-center p-4" style="min-height: 190px"><?php the_field("about_star") ?>		  
+					 </p>
+			</div>
+			 
+			<div class="col-12 col-sm-5 padding-0   m-3 fade-in ">
+				<span class="dashicons dashicons-admin-tools  text-white m-2"></span>
+				<p class=" rounded bg-success text-center  p-4" style="min-height: 190px"> <?php the_field("about_tool") ?>		  
+					 </p>
+			</div>
+		
+		</div>
+		
 		<h2 class="text-light pt-5 pl-5 pb-3 move-in-right "> <?php the_field("spon") ?> </h2>
 
 		<div class="rad col-12 mx-auto bg-success padding-0 text-center pt-5 pb-5" >
@@ -91,7 +107,7 @@ get_header(); ?>
 			</a>
 			<a href="<?php echo $link4['url']; ?>" target="<?php echo $link4['target']; ?>"class="per badge badge-dark border-0  ">
 				<?php echo $link4['title']; ?> 
-				<img style="margin-left: 20px" src="<?php the_field("spon_img_4") ?>" alt="spon_img_4" width="20px" height="20px" />
+				<img style="margin-left: 20px" src=" <?php the_field("spon_img_4") ?>" alt="spon_img_4" width="20px" height="20px" />
 			</a>
 			<a href="<?php echo $link5['url']; ?>" target="<?php echo $link5['target']; ?>"class="per badge badge-dark border-0  ">
 				<?php echo $link5['title']; ?> 

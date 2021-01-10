@@ -50,7 +50,18 @@ get_header(); ?>
 			
 			<div class="col-10 mx-auto  padding-0 mb-5 ">
 				
-				<p class="card-text text-light text-left ml-5 fade-in"><?php the_field("cont_add"); ?></p>	
+				<p class="card-text text-light text-left ml-5 fade-in">
+					
+					<?php the_field("cont_add"); ?>
+					<br>
+					<br>
+					Open:
+					<br>
+					<a href="<?php the_field("cont_map") ?>" target="map" > 
+					    <span class="dashicons dashicons-format-image"></span>
+					</a>
+						
+				</p>	
 				
 				<img class="border border-white rounded flip-up" src="<?php the_field("cont_map") ?>" alt="cont_map" width="100%" >				
 				

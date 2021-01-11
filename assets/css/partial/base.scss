@@ -50,6 +50,7 @@ a {
 	color: $textmain;
 }
 
+
 nav { 
 	background-color: $cnav;
 }
@@ -116,6 +117,10 @@ ul li {
 	min-height: 175px;
 }
 
+.rad a:hover {
+	color: $ctwo;
+}
+
 /* forms */
 
 .is-form-style input.is-search-submit { 
@@ -136,6 +141,7 @@ ul li {
 .comment-respond {
 	color: $ctwo;
 }
+
 
 /* media */
 

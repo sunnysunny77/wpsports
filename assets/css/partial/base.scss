@@ -23,6 +23,11 @@ Author: D.C
 	background-color: $bgthree;
 }
 
+.bgfour {
+	background-color: $bgfour;
+}
+
+
 .bgtwo {
 	background-color: $bgtwo;
 }
@@ -34,9 +39,11 @@ Author: D.C
 .textopc {
 	color: $textopc;
 }
+
 .textsec {
 	color: $textsec;
 }
+
 .textter {
 	color: $textter;
 }
@@ -119,6 +126,8 @@ ul li {
 
 .rad a:hover {
 	color: $ctwo;
+	opacity: 0.9;
+	text-decoration: none;
 }
 
 /* forms */

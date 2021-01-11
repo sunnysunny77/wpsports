@@ -83,7 +83,7 @@ get_header(); ?>
 		
 		<h2 class="textmain pt-5 pl-5 pb-3 move-in-right "> <?php the_field("spon") ?> </h2>
 
-		<div class="rad col-12 mx-auto bgtwo padding-0 text-center pt-5 pb-5" >
+		<div class="rad col-12 mx-auto bgfour padding-0 text-center pt-5 pb-5" >
 
 			<?php
 				$link1 = get_field('link_1');
@@ -93,27 +93,27 @@ get_header(); ?>
 				$link5 = get_field('link_5');
 				$link6 = get_field('link_6');
 			?>
-			<a href="<?php echo $link1['url']; ?>" target="<?php echo $link1['target']; ?>"class="per badge bgone border-0  ">
+			<a href="<?php echo $link1['url']; ?>" target="<?php echo $link1['target']; ?>"class="per badge  bgone border-0  ">
 				<?php echo $link1['title']; ?> 
 				<img style="margin-left: 20px" src="<?php the_field("spon_img_1") ?>" alt="spon_img_1" width="20px" height="20px" />
 			</a>
-			<a href="<?php echo $link2['url']; ?>" target="<?php echo $link2['target']; ?>"class="per badge bgone border-0  ">
+			<a href="<?php echo $link2['url']; ?>" target="<?php echo $link2['target']; ?>"class="per badge  bgone border-0  ">
 				<?php echo $link2['title']; ?> 
 				<img style="margin-left: 20px" src="<?php the_field("spon_img_2") ?>" alt="spon_img_2" width="20px" height="20px" />
 			</a>
-			<a href="<?php echo $link3['url']; ?>" target="<?php echo $link3['target']; ?>"class="per badge bgone border-0  ">
+			<a href="<?php echo $link3['url']; ?>" target="<?php echo $link3['target']; ?>"class="per badge   bgone border-0  ">
 				<?php echo $link3['title']; ?> 
 				<img style="margin-left: 20px" src="<?php the_field("spon_img_3") ?>" alt="spon_img_3" width="20px" height="20px" />
 			</a>
-			<a href="<?php echo $link4['url']; ?>" target="<?php echo $link4['target']; ?>"class="per badge  bgone border-0  ">
+			<a href="<?php echo $link4['url']; ?>" target="<?php echo $link4['target']; ?>"class="per badge   bgone border-0  ">
 				<?php echo $link4['title']; ?> 
 				<img style="margin-left: 20px" src="<?php the_field("spon_img_4") ?>" alt="spon_img_4" width="20px" height="20px" />
 			</a>
-			<a href="<?php echo $link5['url']; ?>" target="<?php echo $link5['target']; ?>"class="per badge bgone border-0  ">
+			<a href="<?php echo $link5['url']; ?>" target="<?php echo $link5['target']; ?>"class="per badge   bgone border-0  ">
 				<?php echo $link5['title']; ?> 
 				<img style="margin-left: 20px" src="<?php the_field("spon_img_5") ?>" alt="spon_img_5" width="20px" height="20px" />
 			</a>
-			<a href="<?php echo $link6['url']; ?>" target="<?php echo $link6['target']; ?>"class="per  badge bgone border-0 ">
+			<a href="<?php echo $link6['url']; ?>" target="<?php echo $link6['target']; ?>"class="per  badge   bgone border-0 ">
 				<?php echo $link6['title']; ?> 
 				<img style="margin-left: 20px"  src="<?php the_field("spon_img_6") ?>" alt="spon_img_6" width="20px" height="20px" />	
 			</a>

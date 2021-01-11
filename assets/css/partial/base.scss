@@ -2,8 +2,6 @@
 Theme Name: bs
 Author: D.C
 */
-@charset "utf-8";
-/* css */
 
 /* gloabl */
 
@@ -125,11 +123,10 @@ ul li {
 }
 
 .rad a:hover {
-	color: $ctwo;
+	color: $textopc;
 	opacity: 0.9;
 	text-decoration: none;
 }
-
 /* forms */
 
 .is-form-style input.is-search-submit { 

@@ -50,11 +50,11 @@ get_header(); ?>
 			
 			<div class="col-10 mx-auto  padding-0 mb-5 ">
 				
-				<p class=" textmain text-left ml-5 fade-in">
+				<p class=" textmain text-left ml-2 fade-in">
 					
 					<?php the_field("cont_add"); ?>
 					<br>
-					<br>
+				
 					Open:
 					<br>
 					<a href="<?php the_field("cont_map") ?>" target="map" > 

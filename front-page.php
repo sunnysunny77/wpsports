@@ -26,7 +26,7 @@
 	
 	<div class="row m-0" >
 		
-			<div class="col-12 col-lg-8 mx-auto padding-0 mb-5">
+			<div class="col-12 col-lg-8 mx-auto padding-0 ">
 				
 				<div class="row m-0">
 					

@@ -7,13 +7,47 @@ Author: D.C
 
 /* gloabl */
 
+.bodmain {
+	border: 1px solid $bodmain;
+}
+
+.bodsec {
+	border: 1px solid $bodsec;
+}
+
+.bgone {
+	background-color: $bgone;
+}
+
+.bgthree {
+	background-color: $bgthree;
+}
+
+.bgtwo {
+	background-color: $bgtwo;
+}
+
+.textmain {
+	color: $textmain;
+}
+
+.textopc {
+	color: $textopc;
+}
+.textsec {
+	color: $textsec;
+}
+.textter {
+	color: $textter;
+}
+
 main {
 	background-image: url("https://wp.sunnylive.xyz/wp-content/uploads/2020/12/ice-age-1920x1080-2.png"); 
 	background-size: 100% 100%;
 }
 
 a {
-	color: $cwhite; 
+	color: $textmain;
 }
 
 nav { 
@@ -40,7 +74,7 @@ body {
 
 ul a:hover { 
 	opacity: 0.4; 
-	color: $cwhite; 
+	color: $textmain;
 	text-decoration: none;
 } 
 
@@ -52,7 +86,7 @@ ul li {
 }
 
 .under {
-	border-bottom: 2.5px solid $cgreen;
+	border-bottom: 2.5px solid $cone;
 	width: 117px;
 }
 
@@ -66,7 +100,7 @@ ul li {
 }
 
 .ah {
-	color: $cgreen;
+	color: $cone;
 }
 
 /* about */
@@ -99,22 +133,26 @@ ul li {
 	width: initial;
 }
 
+.comment-respond {
+	color: $ctwo;
+}
+
 /* media */
 
 @media only screen and (min-width: 1200px) {
 	
 	.content-area {
-		border-radius:10px;
+		border-radius:5px;
 	}
 	
 	.imgabout {
-		border-top-left-radius:10px;
-		border-top-right-radius:10px;
+		border-top-left-radius:5px;
+		border-top-right-radius:5px;
 	}
 	
 	.rad {
-		border-bottom-left-radius:10px;
-		border-bottom-right-radius:10px;
+		border-bottom-left-radius:5px;
+		border-bottom-right-radius:5px;
 	}
 	
 	.imba {
@@ -125,17 +163,17 @@ ul li {
 		height: 150px; 
 		left: -4px; 
 		top: 40px;
-		border-left: 3.5px solid $corange;
+		border-left: 3.5px solid $ctwo;
 	}
 }
 
 @media only screen and (max-width: 1200px) {
 	
-	imba { 
-		border: 1px solid $corange; 
+	.imba { 
+		border: 1px solid $ctwo; 
 	}
 	
 	.rec {
-		background-color: $cinfo; 
+		background-color: $bgthree; 
 	}
 }

@@ -46,9 +46,9 @@ function register_my_custom_sidebars()
     array(
       'name' => 'widget',
       'id' => 'sidebar-1',
-      'before_widget' => '<div class = "widget text-warning fade-in-up ml-5"',
+      'before_widget' => '<div class = "widget textsec fade-in-up ml-5"',
       'after_widget' => '</div>',
- 	  'before_title' => '<h3 class = "text-dark">',
+ 	  'before_title' => '<h3 class = "textter">',
       'after_title' => '</h3>',
     
     )
@@ -57,9 +57,9 @@ function register_my_custom_sidebars()
     array(
       'name' => 'widget1',
       'id' => 'sidebar-2',
-      'before_widget' => '<div class = "widget1 text-warning fade-in-right"  ',
+      'before_widget' => '<div class = "widget1 textsec fade-in-right"  ',
       'after_widget' => '</div>',		
- 	  'before_title' => '<h3 class = "text-dark">',
+ 	  'before_title' => '<h3 class = "textter">',
       'after_title' => '</h3>',    )
   );
 }
@@ -109,7 +109,7 @@ add_action( 'admin_init', 'add_gf_cap' );
 
 add_filter( 'gform_submit_button', 'form_submit_button', 10, 2 );
 function form_submit_button( $button, $form ) {
-    return "<button class='btn-sm btn-dark text-light border border-warning rounded-0' id='gform_submit_button_{$form['id']}'><span>Send</span></button>";
+    return "<button class='btn-sm  bgone bodmain textmain rounded-0' id='gform_submit_button_{$form['id']}'><span>Send</span></button>";
 }
 
 

@@ -8,7 +8,7 @@
 
 			<?php if (has_post_thumbnail()) {  ?> <div> <?php the_post_thumbnail(); ?> </div> <?php } ?>
 
-			<h1 class="mb-5 text-light"><?php the_title(); ?></h1>
+			<h1 class="mb-5 textmain"><?php the_title(); ?></h1>
 
 			<p><?php the_field("bp") ?></p>
 

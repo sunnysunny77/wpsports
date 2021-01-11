@@ -1,12 +1,12 @@
 <?php get_header(); ?>
 
-<div id="front" class="container-fluid bg-info mx-auto pl-0 pr-0 " >		
+<div id="front" class="container-fluid bgthree mx-auto pl-0 pr-0 " >		
 	
 	<div class="row m-0">
 		
 		<div class="col-12 padding-0 mb-5 move-in-down ">
 		
-			<h1 class="homet position-absolute text-light mt-5 mb-5 ml-4 move-in-right" >
+			<h1 class="homet position-absolute textmain mt-5 mb-5 ml-4 move-in-right" >
 				<?php the_title(); ?> <img src="<?php the_field("img_logo") ?>" alt="img logo" width="40" height="40">
 			</h1> 
 
@@ -18,7 +18,7 @@
 	
 	<div class="row m-0">
 		
-		<p class="col-10 col-lg-8 mx-auto padding-0 text-light text-center mb-5 fade-in-up  "><?php the_field("home_p_text"); ?></p>
+		<p class="col-10 col-lg-8 mx-auto padding-0 textmain text-center mb-5 fade-in-up  "><?php the_field("home_p_text"); ?></p>
 
 		<hr class="col-12 padding-0 wp-block-separator has-text-color has-background has-vivid-red-background-color has-vivid-red-color is-style-dots mb-5" />
 		
@@ -38,13 +38,13 @@
 							
 						</figure>
 						
-						<div class="card mx-auto bg-info border-0 text-light mb-5 fade-in-up" style="width: 18rem;">
+						<div class="card mx-auto bgthree border-0 textmain mb-5 fade-in-up" style="width: 18rem;">
 							
 							<div class="card-body p-0" >
 								 
-								<h5 class="card-title text-warning"> <?php the_field("card_title_1"); ?> </h5>
-								<h6 class="card-subtitle text-white-50 mb-2"> <?php the_field("card_sub_1"); ?> </h6>
-								<p  class="card-text" style="height: 100px;"> <?php the_field("card_p_text_1"); ?> </p>
+								<h5 class="card-title textsec"> <?php the_field("card_title_1"); ?> </h5>
+								<h6 class="card-subtitle textopc mb-2"> <?php the_field("card_sub_1"); ?> </h6>
+								<p  class="textmain" style="height: 100px;"> <?php the_field("card_p_text_1"); ?> </p>
 								<?php
 									$link1 = get_field('link_1');
 								?>
@@ -64,12 +64,12 @@
 							
 						</figure>
 						
-						<div class="card mx-auto bg-info text-light border-0 mb-5 fade-in-up" style="width: 18rem;">
+						<div class="card mx-auto bgthree textmain border-0 mb-5 fade-in-up" style="width: 18rem;">
 							
 							<div class="card-body p-0">
 								
-								<h5 class="card-title text-warning"> <?php the_field("card_title_2"); ?> </h5>
-								<h6 class="card-subtitle text-white-50 mb-2"> <?php the_field("card_sub_2"); ?> </h6>
+								<h5 class="card-title textsec"> <?php the_field("card_title_2"); ?> </h5>
+								<h6 class="card-subtitle textopc mb-2"> <?php the_field("card_sub_2"); ?> </h6>
 								<p   class="card-text" style="height: 100px;"> <?php the_field("card_p_text_2"); ?> </p> 
 								<?php
 									$link2 = get_field('link_2');
@@ -89,7 +89,7 @@
 	</div>	
 	
 	
-	<div class="row padding-0  bg-success m-0">
+	<div class="row padding-0  bgtwo m-0">
 		
 		<div class="rec col-12 col-xl-5 mx-auto padding-0 pt-5 pb-5">	
 			

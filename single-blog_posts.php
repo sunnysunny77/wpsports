@@ -26,7 +26,7 @@
 
             <div id="nextpost"><?php next_post_link(); ?> </div>
 
-            <h1 class="move-in-right text-light"><?php the_title(); ?></h1>
+            <h1 class="move-in-right textmain"><?php the_title(); ?></h1>
 
             <?php echo get_the_date(); ?>
 

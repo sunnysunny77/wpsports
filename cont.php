@@ -7,7 +7,7 @@ get_header(); ?>
 
 	<div class="content-area col-xl-7 mx-auto padding-0"  >
 
-		<h1 class="text-light p-5 move-in-right" > <?php the_title(); ?> </h1>
+		<h1 class="textmain p-5 move-in-right" > <?php the_title(); ?> </h1>
 		
 		<div class="row m-0 mb-5">
 					
@@ -19,13 +19,13 @@ get_header(); ?>
 			
 					<div class="col-12 col-xl-5 text-center padding-0 ">
 						
-						<div class="card mb-3 mx-auto bg-info text-light fade-in-up border-0" style="width: 16rem;">
+						<div class="card mb-3 mx-auto bgtwo text-light fade-in-up border-0" style="width: 16rem;">
 							
 							 <div class="card-body">
 								 
-								<h5 class="card-title text-warning"> <?php the_field("cont_title"); ?> </h5>
-								<h6 class="card-subtitle mb-2 text-white-50 "> <?php the_field("cont_sub"); ?> </h6>
-								<p class="card-text"> <?php the_field("cont_p_text"); ?> </p>
+								<h5 class="card-title textsec"> <?php the_field("cont_title"); ?> </h5>
+								<h6 class="card-subtitle mb-2 textopc "> <?php the_field("cont_sub"); ?> </h6>
+								<p class="textmain"> <?php the_field("cont_p_text"); ?> </p>
 								 <?php
 									$link1 = get_field('link_1');
 								 	$link2 = get_field('link_2');
@@ -50,7 +50,7 @@ get_header(); ?>
 			
 			<div class="col-10 mx-auto  padding-0 mb-5 ">
 				
-				<p class="card-text text-light text-left ml-5 fade-in">
+				<p class=" textmain text-left ml-5 fade-in">
 					
 					<?php the_field("cont_add"); ?>
 					<br>
@@ -63,7 +63,7 @@ get_header(); ?>
 						
 				</p>	
 				
-				<img class="border border-white rounded flip-up" src="<?php the_field("cont_map") ?>" alt="cont_map" width="100%" >				
+				<img class="bodsec rounded flip-up" src="<?php the_field("cont_map") ?>" alt="cont_map" width="100%" >				
 				
 				<hr class=" mb-5">
 				

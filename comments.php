@@ -8,7 +8,7 @@
     $args = array(
       'id_form'           => 'commentform',
       'id_submit'         => 'commentsubmit',
-	  'class_submit' => 'btn-sm btn-outline-warning bg-dark text-light',       
+	  'class_submit' => 'btn-sm  bgone bodmain textmain rounded-0',       
 	  'title_reply'       => __('Leave a Comment', 'wpt'),
       'title_reply_to'    => __('Leave a Comment to %s', 'wpt'),
       'cancel_reply_link' => __('Cancel Commnet', 'wpt'),

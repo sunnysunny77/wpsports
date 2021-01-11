@@ -9,7 +9,7 @@
 
             <?php if (has_post_thumbnail()) {  ?> <div> <?php the_post_thumbnail(); ?> </div> <?php } ?>
 
-            <h1 class="mb-5 move-in-right text-light"><?php the_title(); ?></h1>
+            <h1 class="mb-5 move-in-right textmain"><?php the_title(); ?></h1>
 
             <?php the_content() ?>
 

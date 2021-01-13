@@ -5,21 +5,21 @@ Template Name: cont
 get_header(); ?>
 <div class="d-none d-xl-block" style="height: 50px"></div> 
 
-	<div class="content-area col-xl-7 mx-auto padding-0"  >
+	<div class="content-area col-xl-8 mx-auto padding-0"  >
 
 		<h1 class="textmain p-5 move-in-right" > <?php the_title(); ?> </h1>
 		
 		<div class="row m-0 mb-5">
 					
-					<div class="col-12 col-xl-5  text-center padding-0 ">
+					<div class="col-12 col-xl-4  text-center padding-0 ">
 						
 						<img class="fade-in"  src="<?php the_field("cont_img") ?>" alt="cont_img" width="258" height="250">
 						
 					</div>
 			
-					<div class="col-12 col-xl-5 text-center padding-0 ">
+					<div class="col-12 col-xl-6 text-center padding-0 m-0 ml-xl-5 mr-xl-5">
 						
-						<div class="card mb-3 mx-auto bgtwo text-light fade-in-up border-0" style="width: 16rem;">
+						<div class="card mb-3 mx-auto bgtwo text-light fade-in-up border-0 pt-4 pb-4   " style="width: 17rem;">
 							
 							 <div class="card-body">
 								 
@@ -36,9 +36,9 @@ get_header(); ?>
 								<a href="tel: <?php echo $link2['url']; ?>" target="<?php echo $link2['target']; ?>">
 									<?php echo $link2['title']; ?> 
 								</a>
-								 
-							</div>
-							
+														
+							</div>							
+											
 						</div>		
 						
 				</div>

@@ -6,186 +6,233 @@ Author: D.C
 /* gloabl */
 
 .bodmain {
-	border: 1px solid $bodmain;
+  border: 1px solid $bodmain;
 }
 
 .bodsec {
-	border: 1px solid $bodsec;
+  border: 1px solid $bodsec;
 }
 
 .bgone {
-	background-color: $bgone;
+  background-color: $bgone;
 }
 
 .bgthree {
-	background-color: $bgthree;
+  background-color: $bgthree;
 }
 
 .bgfour {
-	background-color: $bgfour;
+  background-color: $bgfour;
 }
 
-
 .bgtwo {
-	background-color: $bgtwo;
+  background-color: $bgtwo;
 }
 
 .textmain {
-	color: $textmain;
+  color: $textmain;
 }
 
 .textopc {
-	color: $textopc;
+  color: $textopc;
 }
 
 .textsec {
-	color: $textsec;
+  color: $textsec;
 }
 
 .textter {
-	color: $textter;
+  color: $textter;
 }
 
 main {
-	background-image: url("https://wp.sunnylive.xyz/wp-content/uploads/2020/12/ice-age-1920x1080-2.png"); 
-	background-size: 100% 100%;
+  background-size: 100% 100%;
 }
 
 a {
-	color: $textmain;
+  color: $textmain;
 }
 
-
-nav { 
-	background-color: $cnav;
+nav {
+  background-color: $cnav;
 }
-
 
 .content-area {
-	min-height: 80vh; 
-	background-color: $ccontentarea;
+  min-height: 80vh;
+  background-color: $ccontentarea;
 }
 
 .padding-0 {
-	padding-right:0;
-	padding-left:0;
+  padding-right: 0;
+  padding-left: 0;
 }
 
-body { 
-	max-width:1920px;
-	margin: auto;
+body {
+  max-width: 1920px;
+  margin: auto;
 }
 
 /* footer */
 
-ul a:hover { 
-	opacity: 0.4; 
-	color: $textmain;
-	text-decoration: none;
-} 
+ul a:hover {
+  opacity: 0.4;
+  color: $textmain;
+  text-decoration: none;
+}
 
-ul li {  
-	font-size: smaller; 
-	padding: 0;
-	list-style-type: none; 
-	text-align: left; 
+ul li {
+  font-size: smaller;
+  padding: 0;
+  list-style-type: none;
+  text-align: left;
 }
 
 .under {
-	border-bottom: 2.5px solid $cone;
-	width: 117px;
+  border-bottom: 2.5px solid $cone;
+  width: 117px;
 }
 
 /* home */
 
 .homet {
-	z-index: 999;
-	background-color: $copac;
-	padding: 0.5%; 
-	border-radius: 10px; 
+  z-index: 999;
+  background-color: $copac;
+  padding: 0.5%;
+  border-radius: 10px;
 }
 
 .ah {
-	color: $cone;
+  color: $cone;
 }
 
 /* about */
 
 .per {
-	width: 42%; 
-	padding: 2%; 
-	margin: 1%; 
-	line-height: 20px;
+  width: 42%;
+  padding: 2%;
+  margin: 1%;
+  line-height: 20px;
 }
 
 .imgabout {
-	min-height: 175px;
+  min-height: 175px;
 }
 
 .rad a:hover {
-	color: $textopc;
-	opacity: 0.9;
-	text-decoration: none;
+  color: $textopc;
+  opacity: 0.9;
+  text-decoration: none;
 }
 /* forms */
 
-.is-form-style input.is-search-submit { 
-	font-weight:540;
-	font-size:0.875rem !important;
-	border:2px solid;
-	border-radius:4px;
+.is-form-style input.is-search-submit {
+  font-weight: 540;
+  font-size: 0.875rem !important;
+  border: 2px solid;
+  border-radius: 4px;
 }
 
 .comment-form label {
-	width: 60px;
+  width: 60px;
 }
 
-.comment-form-cookies-consent label { 
-	width: initial;
+.comment-form-cookies-consent label {
+  width: initial;
 }
 
 .comment-respond {
-	color: $ctwo;
+  color: $ctwo;
 }
-
 
 /* media */
 
 @media only screen and (min-width: 1200px) {
-	
-	.content-area {
-		border-radius:5px;
-	}
-	
-	.imgabout {
-		border-top-left-radius:5px;
-		border-top-right-radius:5px;
-	}
-	
-	.rad {
-		border-bottom-left-radius:5px;
-		border-bottom-right-radius:5px;
-	}
-	
-	.imba {
-		width: 45% !important;
-	}
-	
-	.aspan {
-		height: 150px; 
-		left: -4px; 
-		top: 40px;
-		border-left: 3.5px solid $ctwo;
-	}
+  .content-area {
+    border-radius: 5px;
+  }
+  .imgabout {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  .rad {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  .imba {
+    width: 45% !important;
+  }
+  .aspan {
+    height: 150px;
+    left: -4px;
+    top: 40px;
+    border-left: 3.5px solid $ctwo;
+  }
+  .top {
+	background-attachment: fixed;
+	padding: 10%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+  }
+  section:nth-child(2n + 1) {
+    position: relative;
+    height: auto;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  section:nth-child(2n + 2) {
+    position: relative;
+    height: auto;
+    display: flex;
+  }
+  .stick {
+    position: sticky;
+    top: 0;
+    min-width: 50%;
+    height: 100vh;
+  }
+  .stick img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 600px;
+  }
+  section:nth-child(2n + 1) .content {
+    padding: 150px 100px 150px 2rem;
+    text-align: left;
+  }
+  section:nth-child(2n + 2) .content {
+    padding: 150px 2rem 150px 100px;
+    text-align: right;
+  }
+  .content p {
+    font-size: xx-large;
+    margin: 0;
+  }
 }
 
 @media only screen and (max-width: 1200px) {
-	
-	.imba { 
-		border: 1px solid $ctwo; 
-	}
-	
-	.rec {
-		background-color: $bgthree; 
-	}
+  .imba {
+    border: 1px solid $ctwo;
+  }
+  .rec {
+    background-color: $bgthree;
+  }
+  .top {
+    padding: 14%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .stick {
+    text-align: center;
+  }
+  .stick img {
+    width: 40%;
+    padding: 5%;
+  }
+  .content p {
+    text-align: center;
+    padding: 2em;
+    margin: 0;
+  }
 }

@@ -50,4 +50,4 @@
 
   </header>
 
-  <main class="clearfix ">
+  <main class="clearfix" style="background-image: url('https://wp.sunnylive.xyz/wp-content/uploads/2020/12/ice-age-1920x1080-2.png');">

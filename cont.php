@@ -25,7 +25,7 @@ get_header(); ?>
 								 
 								<h5 class="card-title textsec"> <?php the_field("cont_title"); ?> </h5>
 								<h6 class="card-subtitle mb-2 textopc "> <?php the_field("cont_sub"); ?> </h6>
-								<p class="textmain"> <?php the_field("cont_p_text"); ?> </p>
+								<p class="textter"> <?php the_field("cont_p_text"); ?> </p>
 								 <?php
 									$link1 = get_field('link_1');
 								 	$link2 = get_field('link_2');

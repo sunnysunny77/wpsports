@@ -11,7 +11,7 @@ add_action('wp_enqueue_scripts', 'boot_scripts');
 
 function my_script()
 {
-
+  wp_enqueue_script('viv', 'https://cdn.jsdelivr.net/npm/vivus@0.4.5/dist/vivus.min.js', '', '', false);
   wp_register_script('scripts', get_template_directory_uri() . '/js/scripts.js', '', false, true);
   wp_enqueue_script('scripts');
   wp_register_style('screen', get_template_directory_uri() . '/style.css', array(), false, 'all');

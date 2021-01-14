@@ -150,6 +150,15 @@ ul li {
   color: $ctwo;
 }
 
+/* serv */
+
+.top {
+  background-attachment: fixed;
+  padding: 10%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
 /* media */
 
 @media only screen and (min-width: 1200px) {
@@ -172,12 +181,6 @@ ul li {
     left: -4px;
     top: 40px;
     border-left: 3.5px solid $ctwo;
-  }
-  .top {
-	background-attachment: fixed;
-	padding: 9.5%;
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
   }
   section:nth-child(2n + 1) {
     position: relative;
@@ -225,9 +228,8 @@ ul li {
     background-color: $bgthree;
   }
   .top {
-    padding: 12%;
-    background-size: 100%;
-    background-repeat: no-repeat;
+    background-attachment: revert;
+	padding: 13%;
   }
   .stick {
     text-align: center;

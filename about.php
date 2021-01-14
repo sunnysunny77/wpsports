@@ -9,7 +9,7 @@ get_header(); ?>
 	<div class="content-area col-xl-8 mx-auto padding-0" >
 
 
-		<span class="position-absolute textmain ml-5 ">
+		<span class="position-absolute textmain ml-3 ml-xl-5 ">
 			
 			<h1 class="textmain pt-5 pb-2 move-in-right"> <?php the_title(); ?> </h1>
 			<?php the_field("about_head_text") ?>

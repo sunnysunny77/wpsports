@@ -7,7 +7,7 @@ get_header(); ?>
 
 	<div class="content-area col-xl-8 mx-auto padding-0"  >
 
-		<h1 class="textmain p-5 move-in-right" > <?php the_title(); ?> </h1>
+		<h1 class="textmain pt-5 pl-3 p-xl-5 move-in-right" > <?php the_title(); ?> </h1>
 		
 		<div class="row m-0 mb-5">
 					

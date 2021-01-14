@@ -6,7 +6,7 @@
 		
 		<div class="col-12 padding-0 mb-5 move-in-down ">
 		
-			<span class="homet position-absolute textmain mt-5 ml-4 move-in-right" >
+			<span class="homet position-absolute textmain mt-5 ml-3 ml-xl-5 move-in-right" >
 
 				<h1 class="line" > <?php the_title(); ?> </h1>
 

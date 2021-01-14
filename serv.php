@@ -9,7 +9,7 @@ Template Name: serv
 	
 	<div class="top" style="background-image: url(	<?php the_field("img_s_head") ?> );"></div>
 	
-	<h1 class="textmain p-5 move-in-right" > <?php the_title(); ?> </h1>	
+	<h1 class="textmain pt-5 pl-3 pl-xl-5 move-in-right" > <?php the_title(); ?> </h1>	
 	
 	<section class="move-in-up">
 		

@@ -6,7 +6,7 @@
   <?php comment_form(
 
     $args = array(
-      'id_form'           => 'commentform',
+      'id_form'           => 'commentform textmain',
       'id_submit'         => 'commentsubmit',
 	  'class_submit' => 'btn-sm  bgone bodmain textmain rounded-0',       
 	  'title_reply'       => __('Leave a Comment', 'wpt'),

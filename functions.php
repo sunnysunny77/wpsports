@@ -109,7 +109,7 @@ add_action( 'admin_init', 'add_gf_cap' );
 
 add_filter( 'gform_submit_button', 'form_submit_button', 10, 2 );
 function form_submit_button( $button, $form ) {
-    return "<button class='btn-sm  bgone bodmain textmain rounded-0' id='gform_submit_button_{$form['id']}'><span>Send</span></button>";
+    return "<button class='btn-sm  bgsix bodmain textmain rounded-0' id='gform_submit_button_{$form['id']}'><span>Send</span></button>";
 }
 
 

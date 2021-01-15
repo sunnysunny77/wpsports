@@ -17,6 +17,10 @@ Author: D.C
   background-color: $bgone;
 }
 
+.bgtwo {
+  background-color: $bgtwo;
+}
+
 .bgthree {
   background-color: $bgthree;
 }
@@ -25,9 +29,14 @@ Author: D.C
   background-color: $bgfour;
 }
 
-.bgtwo {
-  background-color: $bgtwo;
+.bgfive {
+  background-color: $bgfive;
 }
+
+.bgsix {
+  background-color: $bgsix;
+}
+
 
 .textmain {
   color: $textmain;
@@ -53,6 +62,10 @@ a {
   color: $textmain;
 }
 
+.ah {
+  color: $cone;
+}
+
 nav {
   background-color: $cnav;
 }
@@ -71,6 +84,23 @@ body {
   max-width: 1920px;
   margin: auto;
   color: $textter;
+}
+
+/* button */
+
+:focus { 
+  outline: 0 !important;  
+}
+
+button:hover , .is-search-submit:hover {
+  opacity: 0.75;
+}
+
+.is-search-submit {
+  background-color: $bgsix !important;  
+  border: 1px solid $bodmain !important;  
+  color: $textmain !important;  
+  border-radius: 0 !important;
 }
 
 /* footer */
@@ -108,15 +138,11 @@ ul li {
 	top: -8px;
 }
 
-.ah {
-  color: $cone;
-}
-
 /* about */
 
 .per {
   width: 42%;
-  padding: 2%;
+  padding: 1.75%;
   margin: 1%;
   line-height: 20px;
 }
@@ -130,6 +156,7 @@ ul li {
   opacity: 0.9;
   text-decoration: none;
 }
+
 /* forms */
 
 .is-form-style input.is-search-submit {
@@ -181,7 +208,7 @@ ul li {
     height: 150px;
     left: -4px;
     top: 40px;
-    border-left: 3.5px solid $ctwo;
+    border-left: 3.5px solid $bodmain;
   }
   section:nth-child(2n + 1) {
     position: relative;
@@ -223,7 +250,7 @@ ul li {
 
 @media only screen and (max-width: 1200px) {
   .imba {
-    border: 1px solid $ctwo;
+    border: 1px solid $bodmain;
   }
   .rec {
     background-color: $bgthree;

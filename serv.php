@@ -5,11 +5,11 @@ Template Name: serv
 */
  get_header(); ?>
 
-<div id="serv" class="container-fluid content-area mx-auto pl-0 pr-0 pb-5 " >		
+<div id="serv" class="container-fluid  mx-auto pl-0 pr-0 pb-5 " >		
 	
-	<div class="top" style="background-image: url(	<?php the_field("img_s_head") ?> );"></div>
+	<div class="top" style="background-image: url(	<?php the_field("img_s_head") ?> );"> </div>
 	
-	<h1 class="textmain pt-5 pl-3 pl-xl-5 move-in-right" > <?php the_title(); ?> </h1>	
+	<h1 class="textmain pt-5 pl-3 pl-xl-5 move-in-right"  > <?php the_title(); ?> </h1>
 	
 	<section class="move-in-up">
 		

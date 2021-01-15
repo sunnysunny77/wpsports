@@ -25,15 +25,15 @@ get_header(); ?>
 								 
 								<h5 class="card-title textsec"> <?php the_field("cont_title"); ?> </h5>
 								<h6 class="card-subtitle mb-2 textopc "> <?php the_field("cont_sub"); ?> </h6>
-								<p class="textter"> <?php the_field("cont_p_text"); ?> </p>
+								<p class="textmain"> <?php the_field("cont_p_text"); ?> </p>
 								 <?php
 									$link1 = get_field('link_1');
 								 	$link2 = get_field('link_2');
 								?>
-								<a style="margin-right: 10px" href="mailto: <?php echo $link1['url']; ?>" target="<?php echo $link1['target']; ?>">
+								<a class="ah" style="margin-right: 10px" href="mailto: <?php echo $link1['url']; ?>" target="<?php echo $link1['target']; ?>">
 									<?php echo $link1['title']; ?> 
 								</a>
-								<a href="tel: <?php echo $link2['url']; ?>" target="<?php echo $link2['target']; ?>">
+								<a class="ah" href="tel: <?php echo $link2['url']; ?>" target="<?php echo $link2['target']; ?>">
 									<?php echo $link2['title']; ?> 
 								</a>
 														
@@ -63,9 +63,7 @@ get_header(); ?>
 						
 				</p>	
 				
-				<img class="bodsec rounded flip-up" src="<?php the_field("cont_map") ?>" alt="cont_map" width="100%" >				
-				
-				<hr class=" mb-5">
+				<img class="bodsec rounded flip-up mb-5" src="<?php the_field("cont_map") ?>" alt="cont_map" width="100%" >				
 				
 			</div>
 			

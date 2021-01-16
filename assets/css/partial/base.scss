@@ -249,6 +249,9 @@ ul li {
 }
 
 @media only screen and (max-width: 1200px) {
+  .content-area {
+	background-color: $bgthree;	  
+  }	
   .imba {
     border: 1px solid $bodmain;
   }
